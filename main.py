@@ -87,7 +87,7 @@ class PDFReader(QMainWindow):
         #layout.addWidget(listView)  # 将list view添加到layout
         self.setLayout(self.layout)  # 将lay 添加到窗口
         self.setCentralWidget(self.widget)
-        self.setWindowTitle('pdfreader')
+        self.setWindowTitle('pdf-reader')
         desktop = QApplication.desktop()
         rect = desktop.availableGeometry()
         self.setGeometry(rect)
